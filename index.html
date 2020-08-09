@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -6,16 +5,15 @@
   <h1> LunchCheck</h1>
   <title>LunchCheck</title>
 <div ng-app="myApp" ng-controller="LunchCheckController">
- <input type="text" ng-model="firstName"><br>
+ <input ng-model="name">
 </div>
 <script>
 var app = angular.module('myApp', []);
 app.controller('LunchCheckController', function($scope) {
-    $scope.firstName = "Have Fun";
-    <br>
-     {{(HaveEnjoy)}}
-</div>
+    $scope.name = "Lunch";
+    <<b>{{Enjoy}}</b>
 });
 </script>
+
 </body>
 </html>
