@@ -5,15 +5,19 @@
   <h1> LunchCheck</h1>
   <title>LunchCheck</title>
 <div ng-app="myApp" ng-controller="LunchCheckController">
- <input ng-model="name">
+ <input type="text" ng-model="firstName"><br>
+<br>
+ {{fullName()}}
 </div>
 <script>
 var app = angular.module('myApp', []);
 app.controller('LunchCheckController', function($scope) {
-    $scope.name = "Lunch";
-    <<b>{{Enjoy}}</b>
+    $scope.firstName = "Saanvi";
+    $scope.fullName = function() {
+        return $scope.HaveFune;
+    };
 });
 </script>
-
 </body>
+</html>
 </html>
