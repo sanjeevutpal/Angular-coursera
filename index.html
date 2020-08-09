@@ -3,17 +3,16 @@
 <html>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
+  <h1> LunchCheck</h1>
+  <title>LunchCheck</title>
 <div ng-app="myApp" ng-controller="LunchCheckController">
-First Name: <input type="text" ng-model="firstName"><br>
-Last Name: <input type="text" ng-model="lastName"><br>
-<br>
-Full Name: {{firstName + " " + lastName}}
+ <input type="text" ng-model="firstName"><br>
 </div>
 <script>
 var app = angular.module('myApp', []);
 app.controller('LunchCheckController', function($scope) {
-    $scope.firstName = "Saanvi";
-    $scope.lastName = "Utpal";
+    $scope.firstName = "Have Fun";
+    console.console.log("Enjoyed Party");
 });
 </script>
 </body>
